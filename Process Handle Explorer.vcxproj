@@ -126,11 +126,13 @@
     <ClCompile Include="src\logger.c" />
     <ClCompile Include="src\main.c" />
     <ClCompile Include="src\processHandleExplorer.c" />
+    <ClCompile Include="src\workerThread.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\common.h" />
     <ClInclude Include="header\logger.h" />
     <ClInclude Include="header\processHandleExplorer.h" />
+    <ClInclude Include="header\workerThread.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

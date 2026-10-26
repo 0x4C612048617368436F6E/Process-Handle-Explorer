@@ -1,7 +1,7 @@
 #include"common.h"
-void createThreadWrapper();
+HANDLE createThreadWrapper(LPVOID);
 typedef struct {
-  HANDLE handleForProcess;
-} waitForProcessToSignal;
-typedef void(WINAPI* waitForProcessToSignal)(LPVoid);
-void waitForProcessToSignalImplementation(LPVoid);
+  HANDLE _handleForProcess;
+} argumentProperties;
+typedef void(WINAPI* waitForProcessToSignal)(LPVOID);
+void waitForProcessToSignalImplementation(LPVOID);

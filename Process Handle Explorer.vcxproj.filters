@@ -24,6 +24,9 @@
     <ClCompile Include="src\processHandleExplorer.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\workerThread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\logger.h">
@@ -33,6 +36,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="header\processHandleExplorer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\workerThread.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
