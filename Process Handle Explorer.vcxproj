@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\locateHWNDViaTitle.c" />
     <ClCompile Include="src\logger.c" />
     <ClCompile Include="src\main.c" />
     <ClCompile Include="src\processHandleExplorer.c" />
@@ -130,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\common.h" />
+    <ClInclude Include="header\locateHWNDviaTitle.h" />
     <ClInclude Include="header\logger.h" />
     <ClInclude Include="header\processHandleExplorer.h" />
     <ClInclude Include="header\workerThread.h" />

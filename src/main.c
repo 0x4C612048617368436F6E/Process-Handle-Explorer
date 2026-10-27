@@ -7,7 +7,7 @@ int __cdecl main() {
   //create Thread
   argumentProperties arguments = {._handleForProcess = handleForProcess};
   HANDLE threadHandle = createThreadWrapper((LPVOID)&arguments);
-
+  locateHWNDViaTitle();
   WaitForSingleObject(threadHandle,INFINITE);
   //close all handles
   CloseHandle(handleForProcess);
